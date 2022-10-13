@@ -1,12 +1,5 @@
 <h1 align="center"> The Movie 🎞 </h1>
 
-<p align="center">
-  <a href="#bibliotecas">Tecnologias</a>  • 
-  <a href="#funcionalidades">Sobre o Projeto</a> •
-  <a href="#funcionalidades">Funcionalidades</a> •
-  <a href="#iniciando"> Instalação e execução</a>   
-</p>
-
 
 
 ## 🚀 Tecnologias
@@ -19,7 +12,7 @@
 -  [React Testing Library](https://testing-library.com/)
 -  [Jest](https://jestjs.io)
 
-## 💻 Sobre o projeto
+### 💻 Sobre o projeto
 
 Listar os Filmes mais populares do momento, para isto 
 todos os dados dos catálogos como título, descrição, capa, foto de background e avaliação foram extraídos ao usar a [API TMDb](https://www.themoviedb.org/documentation/api).
@@ -34,7 +27,7 @@ todos os dados dos catálogos como título, descrição, capa, foto de backgroun
 
 
 
-## ⏳ Instalação e execução
+### ⏳ Instalação e execução
 
 Faça um clone desse repositório e acesse o diretório.
 

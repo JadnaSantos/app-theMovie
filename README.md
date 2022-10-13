@@ -1,6 +1,6 @@
 <h1 align="center"> The Movie 🎞 </h1>
 
-
+![image](https://user-images.githubusercontent.com/62259770/195700004-27b77ac6-923f-4def-88d0-9a8c2c2d91d4.png)
 
 ## 🚀 Tecnologias
 

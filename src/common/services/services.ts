@@ -1,6 +1,6 @@
 import { api } from "./api"
 
-export const apiKey = '?api_key=d195201f98f0688e03a7827aa1fe6b37'
+export const apiKey = 'take your key'
 
 
 export const getPopularMovies = async () => {

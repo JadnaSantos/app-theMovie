@@ -39,7 +39,7 @@ todos os dados dos catálogos como título, descrição, capa, foto de backgroun
 Faça um clone desse repositório e acesse o diretório.
 
 ```bash
-$ git clone git@github.com:LeeonardoVargas/netflix-clone.git && cd netflix-clone
+$ git clonehttps://github.com/JadnaSantos/app-theMovie.git
 ```
 
 Para ter acesso a API você precisará de uma chave, basta criar uma conta no TMDB para ter acesso, [link do cadastro](https://www.themoviedb.org/signup). Caminho da chave: **Perfil -> Configurações -> API -> Chave da API**

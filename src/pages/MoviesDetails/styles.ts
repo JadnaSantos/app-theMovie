@@ -14,7 +14,19 @@ export const DetailsItem = styled.div`
   max-width: 50%;
 
   h1 {
-    margin: 3rem 0;
+    margin: 2rem 0;
+  }
+
+  p {
+    margin: 2rem 0
+  }
+
+  h3 {
+    margin: 2rem 0;
+  }
+
+  span {
+    margin: 2rem 0
   }
 
   button {
@@ -23,10 +35,12 @@ export const DetailsItem = styled.div`
     cursor: pointer;
     border-radius: 1rem;
     color: white;
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 1rem;
     margin-top: 1rem;
     font-size: 100%;
     transition: all .3s;
   }
 
+`
+export const DetailsDescription = styled.div`
 `

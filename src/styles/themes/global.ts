@@ -21,4 +21,17 @@ export const GlobalStyle = createGlobalStyle`
     background:  ${({ theme }) => theme.colors['base-400']};
   }
 
+  ::-webkit-scrollbar {
+    width: 0.6rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.colors['base-400']};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.colors['base-500']};
+    border-radius: 1rem;
+  }
+
 `

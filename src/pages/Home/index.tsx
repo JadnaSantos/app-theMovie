@@ -14,9 +14,10 @@ export function Home() {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
   const { debounce } = useDebouce()
+  console.log(debounce)
+
 
   useEffect(() => {
-
     debounce(() => {
       const loadMovies = async () => {
         try {
@@ -32,7 +33,6 @@ export function Home() {
       }
       loadMovies()
     })
-
   }, [])
 
 

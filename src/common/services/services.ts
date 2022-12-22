@@ -1,6 +1,6 @@
 import { api } from "./api"
 
-export const apiKey = 'take your key'
+export const apiKey = '?api_key=d195201f98f0688e03a7827aa1fe6b37'
 
 
 export const getPopularMovies = async () => {
@@ -9,8 +9,8 @@ export const getPopularMovies = async () => {
   return popularMovies
 }
 
-export const getDetailsMovies = async (movieId: string) => {
-  const detailsMovie = await api.get(`movie/${movieId}${apiKey}&language=en-US&page=1`)
+export const getDetailsMovies = async (id: string) => {
+  const detailsMovie = await api.get(`movie/${id}${apiKey}&language=en-US&page=1`)
 
   return detailsMovie
 }

@@ -1,4 +1,4 @@
-import { Details } from "."
+import { Movie } from "."
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { describe, test } from '@jest/globals'
@@ -12,7 +12,7 @@ jest.mock('react-router-dom', () => ({
 
 describe('Details', () => {
   test('render logo and input correctly', () => {
-    render(<Details />);
+    render(<Movie />);
 
     expect(screen.getByText('Pagina em manutenção')).toBeInTheDocument();
     expect(screen.getByTestId('button')).toBeInTheDocument();

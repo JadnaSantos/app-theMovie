@@ -22,7 +22,7 @@ todos os dados dos catálogos como título, descrição, capa, foto de backgroun
 
 - [x] **Listagem dos Filmes populares**.
 - [x] **Fazer a busca dos filmes**.
-- [ ] **Detalhes dos Filmes populares**.
+- [x] **Detalhes dos Filmes populares**.
 - [ ] **Listagem Infinita**.
 
 

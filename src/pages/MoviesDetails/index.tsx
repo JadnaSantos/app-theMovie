@@ -6,7 +6,7 @@ import { Movie } from '../../types/movies.types'
 import { imagem } from '../../common/utils/image'
 import { toast } from 'react-toastify'
 
-export const MovieDetaisl = () => {
+export const MovieDetails = () => {
   const [movies, setMovies] = useState<Movie>([]);
   const navigate = useNavigate()
   const { id } = useParams()

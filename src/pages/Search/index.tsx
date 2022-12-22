@@ -7,6 +7,8 @@ import { Loading } from "../../components/Loading";
 import { toast } from "react-toastify";
 import { SearchContainer, SearchContent } from "./styles";
 import { useDebouce } from "../../hooks/useDebouce";
+import { Pagination } from "../../components/Pagination";
+import { MovieDetails } from "../MoviesDetails";
 
 
 export const Search = () => {
@@ -53,6 +55,8 @@ export const Search = () => {
           </SearchContent>
         </SearchContainer>
       )}
+
+      <Pagination />
     </>
   )
 }

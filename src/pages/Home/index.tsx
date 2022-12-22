@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Movie } from "../../types/movies.types";
 import { getPopularMovies } from "../../common/services/services";
 import { MovieCard } from '../../components/MovieCard'
@@ -8,13 +8,19 @@ import { HomeContainer, HomeContent } from "./styles";
 import { toast } from "react-toastify";
 import { Loading } from "../../components/Loading";
 import { useDebouce } from "../../hooks/useDebouce";
+import { Pagination } from "../../components/Pagination";
 
 
 export function Home() {
+  const [page, setPage] = useState(1)
+  const [total, setTotalPages] = useState(1)
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
   const { debounce } = useDebouce()
-  console.log(debounce)
+
+  const handlePagination = () => {
+
+  }
 
 
   useEffect(() => {
@@ -22,7 +28,6 @@ export function Home() {
       const loadMovies = async () => {
         try {
           const response = await getPopularMovies()
-
           setMovies(response.data.results)
 
         } catch (error) {
@@ -52,6 +57,8 @@ export function Home() {
           </HomeContent>
         </HomeContainer >
       )}
+
+      <Pagination />
     </>
 
   )

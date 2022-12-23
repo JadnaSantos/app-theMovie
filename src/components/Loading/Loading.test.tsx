@@ -1,10 +1,10 @@
-import { render } from '@testing-library/react'
-import { describe, test } from '@jest/globals'
-import { Loading } from '.'
 import React from 'react';
+import { render } from '@testing-library/react'
+import { describe } from '@jest/globals'
+import { Loading } from '.'
 
 describe('Loading', () => {
-  test('should render correctly', () => {
+  it('should render Loading correctly', () => {
     render(<Loading />)
   })
 })

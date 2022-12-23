@@ -1,6 +1,9 @@
 <h1 align="center"> The Movie 🎞 </h1>
 
-![image](https://user-images.githubusercontent.com/62259770/195700004-27b77ac6-923f-4def-88d0-9a8c2c2d91d4.png)
+![app-movie](https://user-images.githubusercontent.com/62259770/209413918-d5dcb03d-90b6-4344-8eb0-87cfce006fee.png)
+
+![details](https://user-images.githubusercontent.com/62259770/209413926-4a85047b-6748-4388-9713-17eec1999f42.png)
+
 
 ## 🚀 Tecnologias
 
